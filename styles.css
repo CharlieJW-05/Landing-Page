@@ -15,11 +15,14 @@
 .footer {
     background-color: #1F2937;
     color:#E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 .hero-section {
     display:flex;
     background-color:#1F2937;
     gap: 400px;
+    flex-wrap: wrap;
 }
 .hero-left {
     display: flex;
@@ -86,4 +89,37 @@ h2 {
     display:flex;
     justify-content: center;
     gap: 24px;
+}
+.box-one { 
+  width: 200px; 
+  height: 100px; 
+  border: 2px solid blue;
+  border-radius: 15px; 
+} 
+.box-two { 
+  width: 200px; 
+  height: 100px; 
+  border: 2px solid blue; 
+  border-radius: 15px;
+} 
+.box-three { 
+  width: 200px; 
+  height: 100px; 
+  border: 2px solid blue; 
+  border-radius: 15px;
+} 
+.box-four { 
+  width: 200px; 
+  height: 100px; 
+  border: 2px solid blue; 
+  border-radius: 15px;
+} 
+box-text-section {
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+}
+.quote-section {
+    padding: 64px;
+    justify-content: center;
 }
